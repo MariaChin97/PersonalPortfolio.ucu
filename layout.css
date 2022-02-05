@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: violet;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    font-weight: 500%;
+}
+
+.detel p{
+    color: white;
+    line-height: 22px;
+}
+
+.images{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 750px;
+}
+
+.images img{    
+    width: 400px;
+    height: 400px;
+}
